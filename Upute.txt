@@ -1,0 +1,13 @@
+Web aplikacija za prodaju automobila!
+Web aplikacija nudi mogucnost registracije i logiranja, te unosa novih proizvoda...
+
+Izvrsite salonAuta.sql da dobite bazu podataka za ovu aplikaciju ili kopirajte folder salonauta u folder gdje vam se nalaze ostale baze za mysql -> npr. C:\ProgramData\MySQL\MySQL Server 5.7\Data
+
+Na stranici unos unosite nove automobile, na str proizvodi su automobili u bazi.
+
+Ako zelite biti admin registrirajte se te zatim na bazi izvrsite upit:
+UPDATE users SET LEVEL = 1 WHERE username = "Vas username";
+
+Kao admin dobivate administratorsku stranicu za arhiviranje te brisanje proizvoda.
+
+Neke stvari nece raditi sa starom verzijom php-a!

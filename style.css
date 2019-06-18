@@ -1,0 +1,527 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #f8f8f8;
+}
+
+header{
+    height: 600px;
+    background-image: url("img/back4.png");
+    background-size: 100% 100%;
+    background-repeat:  no-repeat;
+    text-align: center;
+}
+
+header img{
+    display: block;
+    padding-top: 200px;
+    margin: 0 auto;
+    
+}
+
+h1{
+    color: white;
+    text-align: center;
+
+    margin-bottom: 15px;
+    font-size: 3.5em;
+    visibility: hidden;
+}
+
+p{
+    color: rgb(196, 189, 189);
+    font-size: 12px;
+}
+
+header p{
+    text-align: center;  
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    visibility: hidden;
+}
+
+.wrapper{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
+nav{
+    border-bottom: 2px solid rgb(71, 180, 89);
+}
+
+nav ul{
+    list-style-type: none;
+    width: 100%;
+    overflow: auto;
+}
+
+nav ul li{
+    width: 11%;
+    float: left;
+}
+
+#right{
+    float: right;
+}
+
+nav ul li a{
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    height: 81px;
+    line-height: 5.0em;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.active{
+    background-color: #4CAF50;
+    color: white;
+}
+
+nav ul li a:hover:not(.active){
+    background-color: #555;
+    color: white;
+}
+
+article{
+    width: 100%;
+    overflow: auto;
+}
+
+h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 60px 0px 20px;
+    text-align: center;
+}
+
+article figure{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+article figure img{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+
+article figure .ikone{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: white;
+    margin: 0 auto 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+article figure .ikone i{
+    transition: opacity 0.5s, font-size 0.5s;
+    font-size: 45px;
+    line-height: 1.8em;
+}
+
+article figure .ikone i:hover{
+    font-size: 50px;
+    opacity: 0.7;
+    line-height: 1.7em;
+}
+
+article figure:nth-child(2) .ikone{
+    background-color: rgb(245, 110, 171);
+}
+
+article figure:nth-child(3) .ikone{
+    background-color: rgb(124, 197, 118);
+}
+
+article figure:nth-child(4) .ikone{
+    background-color: rgb(73, 181, 231);
+}
+
+article figure p{
+    width: 86%;
+    margin: 0 auto;
+    line-height: 1.6em;
+}
+
+h3{
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+
+
+section{
+    width: 100%;
+    overflow: auto;
+}
+
+section iframe{
+    width: 50%;
+    float: left;
+}
+
+footer{
+    background-color: rgb(39, 38, 38);
+}
+
+footer img{
+    display: block;
+    margin: 0 auto;
+    padding: 25px 0px;
+}
+
+footer p{
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+aside{
+    width: 100%;
+    overflow: auto;
+    margin-top: 35px;
+    padding-bottom: 100px;
+}
+
+aside iframe{
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+}
+
+aside iframe:last-child{
+    margin-right: 0%;
+}
+
+.aboutus{
+    width: 70%;
+    float: left;
+}
+.aboutus p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 13px;
+    color: black;
+    padding-bottom: 10px;
+}
+
+.autor{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+.autor img{
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px;
+    
+}
+
+form{
+    max-width: 1000px;
+    margin: 50px auto;
+    overflow: auto;
+    width: 100%;
+    padding: 15px;
+}
+
+#form_element{
+    overflow: auto;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+form label{
+    display: block;
+    width: 10%;
+    text-align: left;
+    float: left;
+    font-size: 1.3em;
+    line-height: 1.9em;
+}
+
+#arh{
+    display: block;
+    width: 30px;
+    height: 40px;
+}
+
+form select{
+    float: left;
+    height: 40px;
+}
+
+form textarea{
+    height: 100px;
+}
+
+form input,textarea,select{
+    width: 80%;
+    float: left;
+    height: 40px;
+    font-size: 1.3em;
+}
+
+#form_element:last-of-type{
+    padding-left: 40%;
+}
+
+form input[type=submit], input[type=reset]{
+    width: 100px;
+    float: none;
+    margin-right: 10px;
+}
+
+#kategorija_naslov h4{
+    color: cyan;
+}
+
+#cijena{
+    color: rgb(226, 21, 21);
+}
+
+form.admin{
+    max-width: 500px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+form.admin label{
+    width: 30%;
+}
+
+form.admin input{
+    width: 70%;
+    font-size: 0.9em;
+}
+
+form.admin input[type=submit]{
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    clear: both;
+    font-size: 1.3em;
+    width: 100px;
+}
+
+p.autosi{
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    color: blueviolet;
+}
+
+span.formaValidate{
+    color: red;
+    display: block;
+    clear: both;
+    margin-left: 10%;
+}
+
+span.formaValidateRegLog{
+    display: block;
+    clear: both;
+    width: 400px;
+    margin: 0px auto;
+    color: red;
+}
+
+form.reglog input{
+    float: none;
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+}
+
+#reglogbutton{
+    width: 100px;
+    float: none;
+    display: inline-block;
+}
+
+form.reglog #form_element{
+    margin-bottom: 10px;
+}
+
+
+@media(min-width: 601px) and (max-width: 1165px){
+    header{
+        height: 400px;
+    }
+
+    nav ul li{
+        width: 20%;
+    }
+
+    nav ul li.srednji{
+        width: 50%;
+    }
+
+    nav ul li.admir{
+        width: 100%;
+    }
+
+    article figure:not(.ikons){
+        width: 50%;
+    }
+
+    form label{
+        width: 15%;
+    }
+}
+
+@media(min-width: 341px) and (max-width: 600px){
+    header{
+        height: 300px;
+    }
+
+    nav ul li{
+        width: 50%;
+    }
+
+    nav ul li.minarem{
+        width: 100%;
+    }
+
+    nav ul li.admir{
+        width: 100%;
+    }
+
+    nav ul li a{
+        font-size: 14px;
+        height: 50px;
+        line-height: 4.0em;
+    }
+
+    article figure{
+        width: 100%;
+    }
+
+    .aboutus{
+        width: 100%;
+    }
+
+    .aboutus p{
+        width: 98%;
+    }
+
+    .autor{
+        width: 100%;
+    }
+
+    aside iframe{
+        width: 80%;
+        margin: 0 10% 20px;
+    }
+
+    section iframe{
+        width: 100%;
+        margin-bottom: 10px;
+        height: 240px;
+    }
+
+    section iframe:nth-last-of-type(1){
+        width: 100%;
+        margin-bottom: 0px;
+        height: 240px;
+    }
+
+    form.reglog input{
+        width: 300px;
+    }
+
+    #form_element:last-of-type {
+        padding-left: 24%;
+    }
+
+    form label {
+        width: 20%;
+    }
+}
+@media(max-width: 340px){
+    header{
+        height: 300px;
+    }
+
+    nav ul li{
+        width: 100%;
+    }
+
+    nav ul li a{
+        font-size: 14px;
+        height: 50px;
+        line-height: 4.0em;
+    }
+
+    article figure{
+        width: 100%;
+    }
+
+    .aboutus{
+        width: 100%;
+    }
+
+    .aboutus p{
+        width: 98%;
+    }
+
+    .autor{
+        width: 100%;
+    }
+
+    aside iframe{
+        width: 80%;
+        margin: 0 10% 20px;
+    }
+
+    section iframe{
+        width: 100%;
+        margin-bottom: 10px;
+        height: 240px;
+    }
+
+    section iframe:nth-last-of-type(1){
+        width: 100%;
+        margin-bottom: 0px;
+        height: 240px;
+    }
+
+    form.reglog input{
+        width: 200px;
+    }
+
+    #form_element:last-of-type {
+        padding-left: 0%;
+    }
+
+    form label {
+        width: 100%;
+    }
+
+    form input,textarea,select{
+        width: 100%;
+    }
+}
+
